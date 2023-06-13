@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="stoapantaS3.Page3">
+
+    <!--ESTILO IMPLICITO-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property = "TextColor" Value="Fuchsia" />
+                <Setter Property = "FontSize"  Value="20" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="Ventana 3 Estilo 3" FontSize="18" HorizontalTextAlignment="Center"/>
+            <Label Text="Estilo Implicito"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
